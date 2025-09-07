@@ -1,4 +1,4 @@
-# 5-Day Workshop on MATLAB FOR RESEARCHERS: SYMBOLIC MATH AND SIMULINK BASICS
+## 5-Day Workshop on MATLAB FOR RESEARCHERS: SYMBOLIC MATH AND SIMULINK BASICS
 ![](https://github.com/nssrnepal/Workshop-on-MATLAB/blob/main/5-Day%20Online%20Workshop%20on%20MATLAB%20Cover.png)
 
 ## Workshop Title: MATLAB Workshop for Researchers: Symbolic Math and Simulink Basics
