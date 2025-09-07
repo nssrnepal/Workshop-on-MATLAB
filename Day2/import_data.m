@@ -3,6 +3,7 @@ clearvars;
 %% 1. Text and CSV Files
 %Delimited text / CSV
 T = readtable('lightning.csv');     % as table
+%%
 M = readmatrix('lightning.csv');    % as numeric matrix
 C = readcell('lightning.csv');      % as cell array
 

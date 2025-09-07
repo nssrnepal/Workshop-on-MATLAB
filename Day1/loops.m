@@ -15,8 +15,10 @@ fprintf('=== FOR LOOP EXAMPLES ===\n');
 % Example 1: Basic for loop with numeric range
 % Iterates from 1 to 5 with default step of 1
 fprintf('Basic for loop (1 to 5):\n');
+
 for i = 1:5
     fprintf('Iteration %d\n', i);
+
 end
 fprintf('\n');
 %%
@@ -72,7 +74,7 @@ while count <= 5
     count = count + 1;
 end
 fprintf('\n');
-
+%%
 % Example 2: While loop with break statement
 % Exits loop when condition is met
 fprintf('While loop with break statement:\n');
@@ -86,6 +88,8 @@ while true
     fprintf('Current num: %d\n', num);
 end
 fprintf('\n');
+
+%%
 
 % Example 3: While loop with continue statement
 % Skips current iteration when condition is met

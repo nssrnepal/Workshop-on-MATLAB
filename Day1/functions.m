@@ -2,12 +2,15 @@
 
 clc; clear; close all;
 
+%% Canvas First Day Quiz Code
+imshow('C:\\Users\WT\Documents\MATLAB\Workshop\Canvas\1.png');
 %% What is a Function?
 % A function is a block of code that performs a specific task. 
 % Functions help organize code, make it reusable, and easier to maintain.
 % MATLAB has built-in functions and you can create your own custom functions.
 %% 1. Basic Function Syntax
 % Functions are defined in files with .m extension
+
 % Basic syntax:
 %   function [outputs] = functionName(inputs)
 %       % Function code here
@@ -21,6 +24,8 @@ clc; clear; close all;
 
 % Calling the function:
 sayHello();
+
+
 fprintf('\n');
 
 %% Example 2: Function with one input
@@ -30,12 +35,13 @@ fprintf('\n');
 %   end
 
 % Calling the function:
-greetUser('Alice');
+greetUser('Ramesh');
 fprintf('\n');
 
 %% Example 3: Function with one output
 % Save this in a file named calculateSquare.m
-%   function result = calculateSquare(number)
+
+%   function result = calculateSquare(5)
 %       result = number * number;
 %   end
 

@@ -1,7 +1,5 @@
 %% Statistics in MATLAB
-
 clc; clear; close all;
-
 %% What is Statistical Analysis in MATLAB?
 % MATLAB provides comprehensive tools for statistical analysis, including 
 % descriptive statistics, probability distributions, hypothesis testing, 
@@ -43,6 +41,8 @@ summary(table(data'))
 
 fprintf('\n');
 
+%% Canvas Second Day Quiz Code
+imshow('C:\\Users\WT\Documents\MATLAB\Workshop\Canvas\2.png');
 %% 2. Probability Distributions
 
 fprintf('=== PROBABILITY DISTRIBUTIONS ===\n');

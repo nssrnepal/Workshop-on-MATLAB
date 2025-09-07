@@ -4,7 +4,6 @@
 % using randomly generated data.
 
 clc; clear; close all;
-
 %% 1. Generate Random Messy Data
 n = 100;  % number of data points
 
@@ -35,7 +34,7 @@ T1 = T;
 % Syntax: fillmissing(A, method) where method can be 'constant', 'previous', 'next', 'nearest', 'linear', 'spline', 'pchip', 'makima'
 T1.Value = fillmissing(T1.Value,'linear');  % Fill missing values with linear interpolation
 % T1 = rmmissing(T);                        % Option to remove rows with NaN
-
+head(T1,10)
 %% 3. Remove Outliers
 T2 = T1;
 

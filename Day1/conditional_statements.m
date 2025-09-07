@@ -17,12 +17,14 @@ fprintf('=== IF STATEMENT EXAMPLES ===\n');
 
 % Example 1: Basic if statement
 fprintf('Basic if statement:\n');
+
+
 x = 10;
 if x > 5
     fprintf('x is greater than 5\n');
 end
 fprintf('\n');
-
+%%
 % Example 2: If-else statement
 % Syntax:
 %   if condition
@@ -30,15 +32,18 @@ fprintf('\n');
 %   else
 %       statements
 %   end
-fprintf('If-else statement:\n');
-temperature = 25;
+%fprintf('If-else statement:\n');
+
+temperature = 45;
+
 if temperature > 30
     fprintf('It''s hot outside\n');
 else
     fprintf('It''s not hot outside\n');
 end
-fprintf('\n');
 
+fprintf('\n');
+%%
 % Example 3: If-elseif-else statement
 % Syntax:
 %   if condition1
@@ -48,8 +53,11 @@ fprintf('\n');
 %   else
 %       statements
 %   end
-fprintf('If-elseif-else statement:\n');
+
+%fprintf('If-elseif-else statement:\n');
+
 score = 85;
+
 if score >= 90
     fprintf('Grade: A\n');
 elseif score >= 80
@@ -61,8 +69,10 @@ elseif score >= 60
 else
     fprintf('Grade: F\n');
 end
+
 fprintf('\n');
 
+%%
 % Example 4: Nested if statements
 fprintf('Nested if statements:\n');
 age = 25;
@@ -93,10 +103,10 @@ fprintf('\n');
 %   end
 
 fprintf('=== SWITCH STATEMENT EXAMPLES ===\n');
-
+%%
 % Example 1: Basic switch statement
 fprintf('Basic switch statement:\n');
-day = 'Wednesday';
+day = 'Monday';
 switch day
     case 'Monday'
         fprintf('Start of the work week\n');
@@ -112,7 +122,7 @@ switch day
         fprintf('Weekend!\n');
 end
 fprintf('\n');
-
+%%
 % Example 2: Switch with multiple cases
 fprintf('Switch with multiple cases:\n');
 month = 'Feb';
