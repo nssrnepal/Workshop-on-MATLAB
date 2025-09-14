@@ -86,7 +86,6 @@ x = randn(1,100); y = 2*x + randn(1,100);
 figure('Name','Scatter Plot Example');
 
 scatter(x,y,60,'filled','MarkerFaceColor','m','MarkerEdgeColor','k');
-
 xlabel('X Data'); ylabel('Y Data');
 title('Scatter Plot with Customization');
 grid on;
@@ -150,18 +149,16 @@ shading interp;
 colormap jet; 
 colorbar;
 
-%%
-
 figure('Name','3D Mesh Plot');
 mesh(X,Y,Z);
 xlabel('X'); ylabel('Y'); zlabel('Z');
 title('Mesh Plot');
-%%
+
 figure('Name','3D Contour Plot');
 contour(X,Y,Z,20);
 xlabel('X'); ylabel('Y'); title('Contour Plot');
 colorbar;
-%%
+
 figure('Name','3D Line Plot');
 t = 0:0.1:10;
 x = sin(t); y = cos(t); z = t;
